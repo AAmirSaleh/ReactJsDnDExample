@@ -1,0 +1,8 @@
+.droppableComp {
+    display: flex;
+    flex-wrap: wrap;
+    width: 713px;
+    height: 30px;
+    background-color: yellow;
+    border: 1px dashed #000;
+}

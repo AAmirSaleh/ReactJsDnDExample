@@ -1,0 +1,18 @@
+{
+    "tasks" : [
+        {"key": "565861", "content" : "Hello new board 1", "taskId": "item-1"},
+        {"key": "971925", "content" : "Hello new board 2", "taskId": "item-2"},
+        {"key": "972925", "content" : "Hello new board 3", "taskId": "item-3"},
+        {"key": "973925", "content" : "Hello new board 4", "taskId": "item-4"},
+        {"key": "974925", "content" : "Hello new board 5", "taskId": "item-5"},
+        {"key": "975925", "content" : "Hello new board 6", "taskId": "item-6"},
+        {"key": "010910", "content" : "Hello new board 7", "taskId": "item-7"}
+    ] ,
+
+  "columns": {
+    "column-1": { "id": "column-1",  "title": "To Do", "taskIds": ["item-1", "item-2", "item-3"] },
+    "column-2": { "id": "column-2", "title": "Done", "taskIds": ["item-4", "item-5", "item-6", "item-7"] }
+  },
+
+  "columnOrder": [{"id":"column-1", "list-id": "list-1", "key":"1"}, {"id": "column-2", "list-id": "list-2", "key":"2"}]
+}
